@@ -8,10 +8,3 @@ install:
   - pip install -r requirements.txt
 script:
   - python tests.py
-deploy:
-  provider: heroku
-  api_key:
-    secure: KEY
-  app: travis-heroku
-  on:
-    repo: nikitabansal711/travis_test_app
