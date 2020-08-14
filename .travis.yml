@@ -11,7 +11,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: <ENCRYPTED API KEY>
+    secure: KEY
   app: travis-heroku
   on:
     repo: nikitabansal711/travis_test_app
